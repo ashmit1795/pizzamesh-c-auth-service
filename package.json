@@ -41,5 +41,8 @@
             "npm run lint:fix",
             "npm run lint:check"
         ]
+    },
+    "dependencies": {
+        "dotenv": "^17.4.2"
     }
 }
