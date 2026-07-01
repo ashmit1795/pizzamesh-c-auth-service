@@ -1,28 +1,30 @@
 {
-	"name": "pizzamesh-c-auth-service",
-	"version": "1.0.0",
-	"description": "The user management service for the PizzaMesh application, handling user authentication, registration, and profile management.",
-	"homepage": "https://github.com/ashmit1795/pizzamesh-c-auth-service#readme",
-	"bugs": {
-		"url": "https://github.com/ashmit1795/pizzamesh-c-auth-service/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ashmit1795/pizzamesh-c-auth-service.git"
-	},
-	"license": "ISC",
-	"author": "Ashmit Patra",
-	"type": "module",
-	"main": "server.ts",
-	"scripts": {
-		"dev": "nodemon src/server.ts",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"devDependencies": {
-		"@types/node": "^26.1.0",
-		"nodemon": "^3.1.14",
-		"prettier": "3.9.4",
-		"ts-node": "^10.9.2",
-		"typescript": "^6.0.3"
-	}
+    "name": "pizzamesh-c-auth-service",
+    "version": "1.0.0",
+    "description": "The user management service for the PizzaMesh application, handling user authentication, registration, and profile management.",
+    "homepage": "https://github.com/ashmit1795/pizzamesh-c-auth-service#readme",
+    "bugs": {
+        "url": "https://github.com/ashmit1795/pizzamesh-c-auth-service/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ashmit1795/pizzamesh-c-auth-service.git"
+    },
+    "license": "ISC",
+    "author": "Ashmit Patra",
+    "type": "module",
+    "main": "server.ts",
+    "scripts": {
+        "dev": "nodemon src/server.ts",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format:fix": "prettier . --write",
+        "format:check": "prettier . --check"
+    },
+    "devDependencies": {
+        "@types/node": "^26.1.0",
+        "nodemon": "^3.1.14",
+        "prettier": "3.9.4",
+        "ts-node": "^10.9.2",
+        "typescript": "^6.0.3"
+    }
 }
